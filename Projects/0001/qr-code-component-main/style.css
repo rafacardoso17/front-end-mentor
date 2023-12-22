@@ -6,7 +6,12 @@ html {
 /* Style for the body of the document, setting the background color to a light blue-gray shade */
 body {
     background-color: #d6e1f0;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+} 
 
 /* Style for an element with class 'qr_code', specifying dimensions, border-radius, margin, and background image */
 .qr-image {
@@ -18,10 +23,13 @@ body {
 }
 
 /* Style for the 'section' element, defining dimensions, margin, border-radius, and background color */
-section {    
+section {   
+    background-color: #d6e1f0;
+    display: block;
+    justify-content: center;
+    align-items: center;    
     width: 20em;
-    height: 31.25em;  
-    margin: 5% auto 1% auto; 
+    height: 31.25em;       
     border-radius: 1.1876rem;
     background: #FFF; 
 }
