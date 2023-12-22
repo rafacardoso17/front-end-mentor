@@ -8,21 +8,36 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+  <!-- Beginning of the style block -->
+<style>    
+  /* Style for the class 'attribution' */
+  .attribution {
+      font-size: 11px;        /* Set the font size to 11 pixels */
+      text-align: center;     /* Center-align the text within the container */
+      line-height: 1.5;       /* Set the line height to 1.5 times the font size for better spacing */
+  }
+  /* Style for anchor elements within the class 'attribution' */
+  .attribution a {
+      color: hsl(228, 45%, 44%); /* Set the color of the anchor text using HSL values */
+  }
+</style>
+<!-- End of the style block -->
+
+<!-- Beginning of the body section -->
 <body>
-  <section>
-    <div class="center"><img class="qr_code" src="images/image-qr-code.png" alt=""></div>
-    <div class="introdution_box">Improve your front-end skills by building projects</div>
-    <div class="description_box">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
-  </section>  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<!-- Start of the section container -->
+<section>
+  <!-- Container for the QR code image -->
+  <div><img class="qr-image" src="images/image-qr-code.png" alt=""></div>
+  <!-- Container for the introduction content -->
+  <div class="intro-content">Improve your front-end skills by building projects</div>
+  <!-- Container for the description content -->
+  <div class="desc-content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+</section>  
+<!-- Container for the attribution information -->
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Rafael Cardoso</a>.
+</div>
 </body>
 </html>

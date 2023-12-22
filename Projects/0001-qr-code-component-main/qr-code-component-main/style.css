@@ -1,49 +1,89 @@
+/* Set the base font size for the HTML document to 16 pixels */
+html {
+    font-size: 16px;
+}
+
+/* Style for the body of the document, setting the background color to a light blue-gray shade */
 body {
     background-color: #d6e1f0;
 }
 
-.qr_code {
-    width: 284px;
-    height: 284px;
-    border-radius: 15px;    
-    margin: 18px 18px;
+/* Style for an element with class 'qr_code', specifying dimensions, border-radius, margin, and background image */
+.qr-image {
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 1rem;
+    margin: 1.125em;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-section{    
-    width: 320px;
-    height: 500px;
-    flex-shrink: 0;    
-    margin: 5% auto; 
-    border-radius: 15px;
+/* Style for the 'section' element, defining dimensions, margin, border-radius, and background color */
+section {    
+    width: 20em;
+    height: 31.25em;  
+    margin: 5% auto 1% auto; 
+    border-radius: 1.1876rem;
     background: #FFF; 
 }
 
-
-.introdution_box {
-    width: 284px;
-    height: 76px;
+/* Style for elements with class 'introduction_box' and 'description_box', specifying dimensions, margin, color, text alignment, and font styles */
+.intro-content, 
+.desc-content {
+    width: 17.5rem;
+    height: 4.75rem;
     margin: auto;
-    flex-shrink: 0;
     color: #000;
     text-align: center;
     font-family: Arial;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.description_box {
-    width: 284px;
-    height: 51px;
-    margin: auto;
-    flex-shrink: 0;
+/* Additional style for elements with class 'description_box', changing color and font size */
+.desc-content {
     color: #A2A6AC;
-    text-align: center;
-    font-family: Arial;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 0.9375rem;
+}
+
+/* Media query for screens with a maximum width of 412 pixels */
+@media screen and (max-width: 412px) {
+    /* Adjust the width of elements with class 'qr_code' to fit content */
+    .qr-image    {
+        width: fit-content;
+    }
+    
+    /* Adjust styles for the 'section' element within the specified screen width */
+    section {   
+        max-width: 20em;
+        height: auto;    
+        margin: auto; 
+        border-radius: 1.1875rem;
+        background: #FFF; 
+    }
+
+    /* Adjust the width of 'img' elements to fit content and maintain aspect ratio */
+    img {
+        width: fit-content;
+        height: auto
+    }
+
+    /* Adjust styles for elements with class 'introduction_box' and 'description_box' within the specified screen width */
+    .intro-content,
+    .desc-content {
+        max-width: 80%;
+        height: auto;
+        margin: 5% auto 1% auto;        
+        font-size: 1.1875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 5%;
+    }
+    
+    /* Adjust font size for elements with class 'description_box' within the specified screen width */
+    .desc-content {               
+        font-size: 0.75rem;        
+    }
 }
