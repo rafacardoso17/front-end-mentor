@@ -11,6 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    flex-wrap: wrap;
 } 
 
 /* Style for an element with class 'qr_code', specifying dimensions, border-radius, margin, and background image */
@@ -80,9 +81,8 @@ section {
     /* Adjust styles for elements with class 'introduction_box' and 'description_box' within the specified screen width */
     .intro-content,
     .desc-content {
-        max-width: 80%;
-        height: auto;
-        margin: 5% auto 1% auto;        
+        max-width: 100%;
+        height: auto;              
         font-size: 1.1875rem;
         font-style: normal;
         font-weight: 700;
