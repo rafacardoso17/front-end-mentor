@@ -1,39 +1,46 @@
+```css
+/* Import Google Fonts with various weights and styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Set the base font size for the html element */
 html {
     font-size: 16px;
 }
 
+/* Style the body of the page */
 body {
     background-color: hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Ensure the body takes up at least 100% of the viewport height */
     flex-direction: column;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;  /* Allow for line wrapping if necessary */
 }
 
+/* Style the main blog section */
 section {
-    max-width: 23.75rem;    
-    margin: auto;
+    max-width: 23.75rem;  /* Maximum width of the section */
+    margin: auto;  /* Center the section horizontally */
     height: 31.875rem;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     border-radius: 1.25rem;
     border: 0.625rem solid #000;
     background: #FFF;
-    box-shadow: 0.5rem 0.5rem 0rem 0rem #000;
+    box-shadow: 0.5rem 0.5rem 0rem 0rem #000; /* Add a subtle shadow */
 }
 
+/* Style the featured image (banner) inside the section */
 .banner {
     width: 21rem;
-    height: auto;
+    height: auto; /* Ensure the image height adjusts automatically to maintain proportion */
     margin: 1.375rem;
     align-items: center;
     border-radius: 0.75rem;
 }
 
+/* Style the "Learning" button */
 .btn {
     width: 5rem;
     height: 1.75rem;
@@ -49,6 +56,7 @@ section {
     line-height: normal;
 }
 
+/* Style the publication date text */
 .published {
     color: #000;
     font-family: Inter;
@@ -59,6 +67,7 @@ section {
     margin: 1.25rem;
 }
 
+/* Style the main title (h1) */
 h1 {
     width: 500px;
     height: 1.5625rem;
@@ -73,6 +82,7 @@ h1 {
     margin-left: 1.375rem;
 }
 
+/* Style the introduction paragraph */
 .introduction {
     width: 20.5625rem;
     height: 4.0625rem;
@@ -86,7 +96,7 @@ h1 {
     line-height: 150%;
 }
 
-
+/* Style the profile image */
 .iperfil-img {
     display: flex;
     width: 1.875rem;
@@ -94,6 +104,7 @@ h1 {
     margin-left: 1.375rem;
 }
 
+/* Style the user name */
 .user-name {
     width: 11.8125rem;
     height: 0.9375rem;
@@ -106,6 +117,8 @@ h1 {
     margin-left: 0.875rem;
 }
 
+/* Style the container for the image and user name */
 .img-name {
     display: flex;
 }
+```
