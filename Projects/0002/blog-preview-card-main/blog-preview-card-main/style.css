@@ -22,7 +22,7 @@ body {
 section {
     max-width: 23.75rem;  /* Maximum width of the section */
     margin: auto;  /* Center the section horizontally */
-    height: 31.875rem;
+    height: 32.5rem;
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     border-radius: 1.25rem;
