@@ -1,43 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html {
+    font-size: 16px;
+}
 
 body {
     background-color: hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;    
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;  
 }
 
 section {
-    width: 380px;
-    height: 510px;
+    max-width: 23.75rem;    
+    margin: auto;
+    height: 31.875rem;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    border: 1px solid #000;
+    border-radius: 1.25rem;
+    border: 0.625rem solid #000;
     background: #FFF;
-    box-shadow: 8px 8px 0px 0px #000;
+    box-shadow: 0.5rem 0.5rem 0rem 0rem #000;
 }
 
 .banner {
-    width: 336px;
-    height: 200px;
-    margin: 22px;
+    width: 21rem;
+    height: auto;
+    margin: 1.375rem;
     align-items: center;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 
 .btn {
-    width: 80px;
-    height: 28px;
-    border-radius: 3px;
-    margin-left: 22px;
+    width: 5rem;
+    height: 1.75rem;
+    border-radius: 0.18753rem;
+    margin-left: 1.375rem;
     border: none;
     background: hsl(47, 88%, 63%);
     color: #000;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -46,60 +52,61 @@ section {
 .published {
     color: #000;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 h1 {
     width: 500px;
-    height: 25px;
+    height: 1.5625rem;
     color: #000;
     justify-content: center;
     align-items: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 22px;
+    margin-left: 1.375rem;
 }
 
 .introduction {
-    width: 329px;
-    height: 65px;
+    width: 20.5625rem;
+    height: 4.0625rem;
     color: #8B8B8B;
-    margin-left: 22px;
+    margin-left: 1.35rem;
     font-kerning: none;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 151.3%; /* 22.695px */
+    line-height: 150%;
 }
 
 
 .iperfil-img {
     display: flex;
-    width: 30px;
-    height: 30px;
-    margin-left: 22px;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 1.375rem;
 }
 
 .user-name {
-    width: 189px;
-    height: 15px;
+    width: 11.8125rem;
+    height: 0.9375rem;
     color: #000;
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    margin-left: 14px;
+    margin-left: 0.875rem;
 }
 
 .img-name {
     display: flex;
 }
+
