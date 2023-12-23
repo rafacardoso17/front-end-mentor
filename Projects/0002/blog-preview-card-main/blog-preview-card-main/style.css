@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
+section {
+    width: 380px;
+    height: 510px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.banner {
+    width: 336px;
+    height: 200px;
+    margin: 22px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.btn {
+    width: 80px;
+    height: 28px;
+    border-radius: 3px;
+    margin-left: 22px;
+    border: none;
+    background: hsl(47, 88%, 63%);
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.published {
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+}
+
+h1 {
+    width: 500px;
+    height: 25px;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 22px;
+}
+
+.introduction {
+    width: 329px;
+    height: 65px;
+    color: #8B8B8B;
+    margin-left: 22px;
+    font-kerning: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.3%; /* 22.695px */
+}
+
+
+.iperfil-img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 22px;
+}
+
+.user-name {
+    width: 189px;
+    height: 15px;
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.img-name {
+    display: flex;
+}
