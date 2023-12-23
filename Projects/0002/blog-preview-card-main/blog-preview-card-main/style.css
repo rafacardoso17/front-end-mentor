@@ -26,7 +26,7 @@ section {
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     border-radius: 1.25rem;
-    border: 0.625rem solid #000;
+    border: 0.0625rem solid #000;
     background: #FFF;
     box-shadow: 0.5rem 0.5rem 0rem 0rem #000; /* Add a subtle shadow */
 }
